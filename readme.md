@@ -1,9 +1,10 @@
 Angular2 with TypeScript (how to get started!)
 ========================================
 
-<sub>
-**Author**: [Ammar Hasan](https://github.com/ammar-hasan)
-</sub>
+
+<a href="http://stackoverflow.com/users/2071317/ammar-hasan">
+<img src="http://stackoverflow.com/users/flair/2071317.png" width="208" height="58" alt="profile for Ammar Hasan at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for Ammar Hasan at Stack Overflow, Q&amp;A for professional and enthusiast programmers">
+</a>
 
 <sub>
 Find the source code [here](https://github.com/ammar-hasan/angular-2-get-started)
