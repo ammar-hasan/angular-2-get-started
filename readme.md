@@ -315,17 +315,17 @@ Hurray, now time to cheer-up, you have just created and used your first Angular 
 * [Decorator pattern](https://addyosmani.com/resources/essentialjsdesignpatterns/book/#decoratorpatternjavascript)
 
 ## FAQS
-* What does **npm init** do?
-Answer: This command initializes NPM package management over the current directory, and adds a package.json file, which will manage the installed packages and other scripts.
+* What does **npm init** do?<br/>
+_Answer_: This command initializes NPM package management over the current directory, and adds a package.json file, which will manage the installed packages and other scripts.
 
-* Why did we use npm here?
-Answer: The purpose was that readers should start using NPM if the haven't already used, because in near future of Angular development, they will likely be encountering NPM, so it's good to start using now.
+* Why did we use npm here?<br/>
+_Answer_: The purpose was that readers should start using NPM if the haven't already used, because in near future of Angular development, they will likely be encountering NPM, so it's good to start using now.
 
-* What does **bower init** do?
-Answer: This command initializes bower frontend package management over the current directory, and adds a bower.json file.
+* What does **bower init** do?<br/>
+_Answer_: This command initializes bower frontend package management over the current directory, and adds a bower.json file.
 
-* Why did we use bower in this example?
-Answer: Because this will enable the reader to get-used-to bower simultaneously with programming in Angular JS, also instead of using directly from CDN doesn't work when network is not available.
+* Why did we use bower in this example?<br/>
+_Answer_: Because this will enable the reader to get-used-to bower simultaneously with programming in Angular JS, also instead of using directly from CDN doesn't work when network is not available.
 
-* What is the difference between bower and npm?
-Answer: The difference is that bower is a package of NPM for frontend. And hence bower uses NPM, also github and CDN repositories, and manage the use of frontend libraries.
+* What is the difference between bower and npm?<br/>
+_Answer_: The difference is that bower is a package of NPM for frontend. And hence bower uses NPM, also github and CDN repositories, and manage the use of frontend libraries.
