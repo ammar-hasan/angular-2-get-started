@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Angular v2 Get-Started</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="bower_components/bootstrap.min/index.css" rel="stylesheet">
+    <!-- 1. Load libraries -->
+    <!-- in this exact order -->
+    <script src="bower_components/es6-shim.min/index.js" charset="utf-8"></script>
+    <script src="bower_components/system-polyfills/index.js" charset="utf-8"></script>
+    <script src="bower_components/system/index.js" charset="utf-8"></script>
+    <script src="bower_components/typescript/index.js" charset="utf-8"></script>
+    <script src="bower_components/angular2-polyfills/index.js" charset="utf-8"></script>
+    <script src="bower_components/rx/index.js" charset="utf-8"></script>
+    <script src="bower_components/angular2.dev/index.js" charset="utf-8"></script>
+    <!-- 2. Configure SystemJS -->
+    <script src="config.js" charset="utf-8"></script>
+    <script>
+      System.import('app/main')
+            .then(null, console.error.bind(console));
+    </script>
+  </head>
+  <!-- 3. Display the application -->
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-6 col-md-4"></div>
+        <div class="col-xs-6 col-md-4" style="text-align: center;">
+          <b>Getting Started with Angular v2</b>
+        </div>
+        <div class="col-xs-6 col-md-4"></div>
+      </div>
+      <br/>
+      <div class="row">
+        <div class="col-xs-6 col-md-4"></div>
+        <div class="col-xs-6 col-md-4">
+          <get-started style="display: block">Loading...</get-started>
+        </div>
+        <div class="col-xs-6 col-md-4"></div>
+      </div>
+    </div>
+  </body>
+</html>

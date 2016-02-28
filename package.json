@@ -1,0 +1,17 @@
+{
+  "name": "angular2-ts-get-started",
+  "version": "1.0.0",
+  "description": "Angular2 TypeScript First Look",
+  "main": "config.js",
+  "scripts": {
+    "start": "http-server --cors -o -p 8080"
+  },
+  "keywords": [
+    "angular2",
+    "first-look"
+  ],
+  "author": "Ammar Hasan",
+  "license": "ISC",
+  "dependencies": {
+  }
+}
