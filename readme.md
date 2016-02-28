@@ -1,10 +1,13 @@
 Angular2 with TypeScript (how to get started!)
 ========================================
 
-```
+<sub>
 **Author**: [Ammar Hasan](https://github.com/ammar-hasan)
+</sub>
+
+<sub>
 Find the source code [here](https://github.com/ammar-hasan/angular-2-get-started)
-```
+</sub>
 
 It feels exciting writing about new technologies that have just arrived in the software world. One of the interesting technologies, I must say is Angular v2, and it seems so far to be very promising. The purpose of this piece of writing and related code is to make a new JS developer get started with Angular v2 development. So if you already know what's different in Angular v2, or you can't wait to write the first app, then you may just go to the pre-requisites section and follow the steps afterwards.
 
@@ -134,7 +137,7 @@ Now in the body of index.html write
 
 Observe this html, and see there is **get-started** tag there, this is where our first Angular app will be placing it's code, and yes it's a Web-Component.
 
-Now create a folder name **app* and create a file within named **main.ts** (just to mention that ts is the widely used file-extension for TypeScript), and write this at the top to ensure stricter code validation within the browser.
+Now create a folder name **app** and create a file within named **main.ts** (just to mention that ts is the widely used file-extension for TypeScript), and write this at the top to ensure stricter code validation within the browser.
 
 ```javascript
 "use strict";
@@ -257,7 +260,7 @@ bootstrap(GetStartedApp);
 ```
 
 At this moment, your code's directory structure must look like this
-
+```
 |-- angular2-ts-get-started
     |-- bower.json
     |-- config.js
@@ -265,7 +268,7 @@ At this moment, your code's directory structure must look like this
     |-- package.json
     |-- app
         |-- main.ts
-
+```
 So now we are done with all the cool stuff, but we have one last thing to do, and that is to create a web-server, which will host your very first Angular v2 app, so write the following command to install a simple (but awesome) NodeJs [Http Server](https://github.com/indexzero/http-server).
 
 ```bash
